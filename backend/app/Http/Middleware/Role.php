@@ -19,6 +19,6 @@ class Role
         $role =$request->user()->role;
 
            dd($role);
-           
+
     }
 }
